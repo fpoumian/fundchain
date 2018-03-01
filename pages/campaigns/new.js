@@ -3,6 +3,7 @@ import { Form, Button, Input, Message } from 'semantic-ui-react'
 import Layout from '../../components/Layout'
 import factory from '../../ethereum/factory'
 import web3 from '../../ethereum/web3'
+import { Router } from '../../routes'
 
 import PropTypes from 'prop-types'
 
@@ -26,6 +27,7 @@ class CampaignNew extends React.Component {
         .send({
           from: accounts[0],
         })
+      Router.push('/')
     } catch (err) {
       this.setState({ errorMessage: err.message.split('\n')[0] })
     }
