@@ -1,13 +1,21 @@
 import React from 'react'
+import { Container } from 'semantic-ui-react'
+import Head from 'next/head'
+
 import PropTypes from 'prop-types'
 import Header from './Header'
 
 const Layout = ({ children }) => (
-  <div>
+  <Container>
+    <Head>
+      <link
+        rel="stylesheet"
+        href="//cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.12/semantic.min.css"
+      />
+    </Head>
     <Header />
     {children}
-    <h1>Im a footer</h1>
-  </div>
+  </Container>
 )
 
 Layout.propTypes = {}

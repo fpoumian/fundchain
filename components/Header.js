@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 import { Menu } from 'semantic-ui-react'
 
 const Header = props => (
-  <Menu>
+  <Menu style={{ marginTop: '10px' }}>
     <Menu.Item>{`CrowdCoin`}</Menu.Item>
     <Menu.Menu position={`right`}>
       <Menu.Item>{`Campaigns`}</Menu.Item>
