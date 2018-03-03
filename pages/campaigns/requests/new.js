@@ -54,7 +54,7 @@ class RequestNew extends React.Component {
   render() {
     return (
       <Layout>
-        <Link route={`/campaigns/${this.props.address}/requests`}>
+        <Link route={`/campaigns/${this.props.address}/requests`} prefetch>
           <a>
             {`Back`}
           </a>

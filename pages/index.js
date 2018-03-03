@@ -17,7 +17,7 @@ class CampaignIndex extends React.Component {
     const items = this.props.campaigns.map(address => ({
       header: address,
       description: (
-        <Link route={`/campaigns/${address}`}>
+        <Link route={`/campaigns/${address}`} prefetch>
           <a>{`View Campaign`}</a>
         </Link>
       ),
