@@ -25,10 +25,10 @@ class RequestIndex extends React.Component {
     const { Header, Row, HeaderCell, Body } = Table
     return (
       <Layout>
-        <h3>{`Request List`}</h3>
+        <h3>{`Requests`}</h3>
         <Link route={`/campaigns/${this.props.address}/requests/new`}>
           <a>
-            <Button primary>{`Add Request`}</Button>
+            <Button primary floated={`right`} style={{marginBottom: 10}}>{`Add Request`}</Button>
           </a>
         </Link>
         <Table>
@@ -57,6 +57,7 @@ class RequestIndex extends React.Component {
           }
           </Body>
         </Table>
+        <div>{`Found ${this.props.requestCount} requests.`} </div>
       </Layout>
     )
   }
