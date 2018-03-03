@@ -1,5 +1,7 @@
 import React from 'react'
-import { Card, Grid, Button } from 'semantic-ui-react'
+import Card from 'semantic-ui-react/dist/commonjs/views/Card'
+import Grid from 'semantic-ui-react/dist/commonjs/collections/Grid'
+import Button from 'semantic-ui-react/dist/commonjs/elements/Button'
 
 import Layout from 'components/Layout'
 import createCampaign from 'ethereum/campaign'

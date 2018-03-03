@@ -1,6 +1,10 @@
 import React from 'react'
 
-import { Form, Button, Message, Input } from 'semantic-ui-react'
+import Form from 'semantic-ui-react/dist/commonjs/collections/Form'
+import Message from 'semantic-ui-react/dist/commonjs/collections/Message'
+import Button from 'semantic-ui-react/dist/commonjs/elements/Button'
+import Input from 'semantic-ui-react/dist/commonjs/elements/Input'
+
 import Campaign from 'ethereum/campaign'
 import web3 from 'ethereum/web3'
 import { Link, Router } from 'routes'

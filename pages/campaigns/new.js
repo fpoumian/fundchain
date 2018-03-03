@@ -1,5 +1,10 @@
 import React from 'react'
-import { Form, Button, Input, Message } from 'semantic-ui-react'
+
+import Form from 'semantic-ui-react/dist/commonjs/collections/Form'
+import Message from 'semantic-ui-react/dist/commonjs/collections/Message'
+import Button from 'semantic-ui-react/dist/commonjs/elements/Button'
+import Input from 'semantic-ui-react/dist/commonjs/elements/Input'
+
 import Layout from 'components/Layout'
 import factory from 'ethereum/factory'
 import web3 from 'ethereum/web3'

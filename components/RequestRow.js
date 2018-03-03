@@ -1,5 +1,6 @@
 import React from 'react'
-import { Table, Button } from 'semantic-ui-react'
+import Table from 'semantic-ui-react/dist/commonjs/collections/Table'
+import Button from 'semantic-ui-react/dist/commonjs/elements/Button'
 import web3 from 'ethereum/web3'
 import PropTypes from 'prop-types'
 
