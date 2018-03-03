@@ -1,8 +1,8 @@
 import React from 'react'
-import factory from '../ethereum/factory'
+import factory from 'ethereum/factory'
 import { Card, Button } from 'semantic-ui-react'
 
-import Layout from '../components/Layout'
+import Layout from 'components/Layout'
 import { Link } from '../routes'
 
 class CampaignIndex extends React.Component {

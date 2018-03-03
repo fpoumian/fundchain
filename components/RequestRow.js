@@ -1,9 +1,9 @@
 import React from 'react'
 import { Table, Button } from 'semantic-ui-react'
-import web3 from '../ethereum/web3'
+import web3 from 'ethereum/web3'
 import PropTypes from 'prop-types'
 
-import Campaign from '../ethereum/campaign'
+import Campaign from 'ethereum/campaign'
 
 class RequestRow extends React.Component {
   onApprove = async () => {

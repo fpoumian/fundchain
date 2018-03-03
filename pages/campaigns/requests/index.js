@@ -1,10 +1,10 @@
 import React from 'react'
 import { Button, Table } from 'semantic-ui-react'
 
-import Layout from '../../../components/Layout'
-import { Link } from '../../../routes'
-import Campaign from '../../../ethereum/campaign'
-import RequestRow from "../../../components/RequestRow";
+import Layout from 'components/Layout'
+import { Link } from 'routes'
+import Campaign from 'ethereum/campaign'
+import RequestRow from "components/RequestRow";
 
 class RequestIndex extends React.Component {
   static async getInitialProps({ query: { address } }) {
