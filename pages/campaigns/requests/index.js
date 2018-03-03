@@ -1,5 +1,7 @@
 import React from 'react'
-import { Button, Table } from 'semantic-ui-react'
+
+import Table from 'semantic-ui-react/dist/commonjs/collections/Table'
+import Button from 'semantic-ui-react/dist/commonjs/elements/Button'
 
 import Layout from 'components/Layout'
 import { Link } from 'routes'
