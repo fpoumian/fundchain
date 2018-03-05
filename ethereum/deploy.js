@@ -1,10 +1,11 @@
 const HDWalletProvider = require('truffle-hdwallet-provider')
 const Web3 = require('web3')
 const compiledFactory = require('./build/CampaignFactory.json')
+require('dotenv').config()
 
 const provider = new HDWalletProvider(
-  'immune west possible disease employ gorilla rug box burst flash festival pulse',
-  'https://rinkeby.infura.io/VedHdOSEL57jVgnn9gVt'
+  process.env.MNEMONIC,
+  process.env.RINKEBY_DEPLOY_ENDPOINT
 )
 
 const web3 = new Web3(provider)
