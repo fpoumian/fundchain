@@ -6,7 +6,7 @@ import { Link } from '../routes'
 const Header = props => (
   <Menu style={{ marginTop: '10px' }}>
     <Link route={`/`} prefetch>
-      <a className={`item`}>CrowdCoin</a>
+      <a className={`item`}>{`FundChain`}</a>
     </Link>
     <Menu.Menu position={`right`}>
       <Link route={`/`} prefetch>
